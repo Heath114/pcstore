@@ -30,10 +30,12 @@ export default function ProductsSection() {
     // Add more categories as needed
     const categoryMap = {
         'All': t.products.all_products,
-        'Phones': 'Phones',
-        'Tablets': 'Tablets',
-        'iPads': 'iPads',
-        // 'Laptops': 'Laptops',
+        'Monitors': 'Monitors',
+
+        // 'Phones': 'Phones',
+        // 'Tablets': 'Tablets',
+        // 'iPads': 'iPads',
+        'Laptops': 'Laptops',
         // 'Computers': 'Computers',
         // 'Wearables': 'Wearables',
         'Accessories': 'Accessories'
@@ -133,7 +135,7 @@ export default function ProductsSection() {
                                       h-full w-full border-r border-neutral-200 last:border-r-0"
                                     onClick={() => router.push(`/${locale}/p/${product.slug}`)}
                                 >
-                                    <div className="aspect-[4/5] w-full bg-gray-50 flex items-center justify-center overflow-hidden mb-2 relative">
+                                    <div className="aspect-[1/1] w-full bg-gray-50 flex items-center justify-center overflow-hidden mb-2 relative">
                                         {/* Main Image */}
                                         <Image
                                             src={product.image ?? '/images/products/placeholder.png'}

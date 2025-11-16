@@ -21,7 +21,6 @@ export default function Header() {
     // The header is fixed to the top of the viewport.
     <header className="bg-white fixed inset-x-0 py-4 md:py-1 lg:py-0.5 2xl:py-0 px-4 md:px-8 lg:px-12 2xl:px-16 w-full z-50 top-0">
 
-
       {/* Mobile Layout */}
       <div className="md:hidden flex items-center justify-between">
         {/* Left: Menu & Search */}
@@ -32,7 +31,7 @@ export default function Header() {
         {/* Center: Logo */}
         <Link href="/" className="absolute left-1/2 -translate-x-1/2">
           <Image 
-            src="/images/logos/logo.avif" 
+            src="/images/logos/2.png" 
             alt="TechShop Logo" 
             width={100} 
             height={33}
@@ -60,7 +59,7 @@ export default function Header() {
         <div className="flex justify-center">
           <Link href="/">
             <Image 
-              src="/images/logos/logo.avif" 
+              src="/images/logos/2.png" 
               alt="TechShop Logo" 
               width={120} 
               height={40} 

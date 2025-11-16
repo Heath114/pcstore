@@ -22,13 +22,13 @@ type Slide = {
 const slides: Slide[] = [
   {
     id: 1,
-    title: 'Fast Charging',
+    title: 'Crystal Clear Display',
     subtitle:
-      'A power bank that stays with you wherever you go, ensuring safe and fast charging.',
+      'Experience stunning visuals with our premium monitors, delivering exceptional color accuracy and immersive viewing.',
     ctaText: 'Shop now',
-    ctaHref: '/products/power-banks',
-    imageUrl: '/slider/img1.jpg',
-    alt: 'Anker fast charging power bank',
+    ctaHref: '/products/monitors',
+    imageUrl: '/slider/3.png',
+    alt: 'High-resolution professional monitor',
   },
   {
     id: 2,
@@ -37,29 +37,9 @@ const slides: Slide[] = [
       'Power your day with reliable capacity and premium build quality.',
     ctaText: 'Explore',
     ctaHref: '/collections/new',
-    imageUrl: '/slider/bbbb.webp',
+    imageUrl: '/slider/1.webp',
     alt: 'Lifestyle tech setup',
   },
-  {
-    id: 3,
-    title: 'Browse on the go',
-    subtitle:
-      'Compact design that fits anywhere without compromising performance.',
-    ctaText: 'See details',
-    ctaHref: '/collections/travel',
-    imageUrl: '/slider/ll.webp',
-    alt: 'Travel gear and accessories',
-  },
-  {
-    id: 4,
-    title: 'Ultimate Durability',
-    subtitle:
-      'Rugged and reliable power banks built to withstand the toughest conditions.',
-    ctaText: 'Buy now',
-    ctaHref: '/products/durable-power-banks',
-    imageUrl: '/slider/lll.webp',
-    alt: 'Durable power bank in outdoor setting',
-  }
 ];
 
 function ProHeroSlider() {

@@ -82,7 +82,7 @@ export default function ProductsSection() {
                                       h-full w-full border-r border-neutral-200 last:border-r-0"
                                     onClick={() => router.push(`/${locale}/p/${product.slug}`)}
                                 >
-                                <div className="aspect-[4/5] w-full bg-gray-50 flex items-center justify-center overflow-hidden mb-2 relative">
+                                <div className="aspect-[1/1] w-full bg-gray-50 flex items-center justify-center overflow-hidden mb-2 relative">
                                         {/* Main Image */}
                                         <Image
                                             src={product.image ?? '/images/products/placeholder.png'}
